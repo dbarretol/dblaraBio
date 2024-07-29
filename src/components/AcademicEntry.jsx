@@ -1,19 +1,20 @@
 import React from 'react';
+import './specificCSS/AcademicEntry.css'
 
 function AcademicEntry({ logoSrc, logoAlt, program, institution, dates }) {
     return (
-        <div className="card mb-3" style={{ maxWidth: '540px', margin: '0 auto', padding: '0' }}>
+        <div className="card mb-3 custom-card"> {/* Añadimos la clase custom-card */}
             <div className="row g-0">
-                <div className="col-md-4 d-flex align-items-center justify-content-center" style={{ padding: '0' }}>
-                    <img src={logoSrc} className="img-fluid rounded-circle" alt={logoAlt} style={{ maxWidth: '100%', height: 'auto' }} />
+                <div className="col-md-4 d-flex align-items-center justify-content-center">
+                    <img src={logoSrc} className="img-fluid rounded-circle" alt={logoAlt} />
                 </div>
-                <div className="col-md-8" style={{ padding: '0' }}>
-                    <div className="card-body" style={{ padding: '1rem' }}>
-                        <h5 className="card-title" style={{ marginBottom: '0.5rem' }}>{program}</h5>
-                        <p className="card-text" style={{ marginBottom: '0.5rem' }}>
+                <div className="col-md-8">
+                    <div className="card-body">
+                        <h5 className="card-title">{program}</h5>
+                        <p className="card-text">
                             {institution}
                         </p>
-                        <p className="card-text" style={{ marginBottom: '0' }}>
+                        <p className="card-text">
                             <small className="text-body-secondary">{dates}</small>
                         </p>
                     </div>
