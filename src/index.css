@@ -4,14 +4,23 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: black;
+  background-color: #163E64;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
+.container {
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
 
 a {
   font-weight: 500;

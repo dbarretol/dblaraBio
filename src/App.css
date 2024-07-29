@@ -5,6 +5,32 @@
   text-align: center;
 }
 
+
+.badge-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra los elementos horizontalmente */
+  gap: 0.5rem; /* Ajusta el espacio entre los elementos si es necesario */
+}
+.badgeTypeI {
+  background-color: #f8f9fa;
+  border: 1px solid #0A66C2;
+  border-radius: 50px;
+
+  color: #0A66C2;
+
+  padding: 10px;
+  margin: 8px; /* Ajusta el margen para reducir el espacio entre los elementos */
+  
+  text-align: center;  
+  display: inline-flex; /* Cambia a inline-flex para ajustar el ancho al contenido */  
+}
+
+
+
+
+
+
 .logo {
   height: 6em;
   padding: 1.5em;
