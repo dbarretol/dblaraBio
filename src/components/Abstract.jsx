@@ -6,9 +6,13 @@ function Abstract() {
             <div className="container">
                 <h2 className="sectionTitle">Perfil Profesional</h2>
                 <p className="content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in ipsum diam. Vivamus et nulla at eros eleifend posuere in quis erat.
-                    Integer ut odio vitae neque porttitor pretium. Curabitur vulputate scelerisque tellus tristique fringilla.
-                    Pellentesque ornare quam in nunc viverra, viverra convallis massa feugiat. Proin laoreet velit et lacus rhoncus congue.
+                    Ingeniero mecánico-electricista titulado y colegiado (CIP 330188) con sólida formación académica y experiencia
+                    internacional, próximo a obtener un MBA y con Doctorado en Energética. <br/>
+                    Experiencia en docencia, investigación en aerogeneradores offshore y consultoría en gestión de mantenimiento en el
+                    sector energético. En particular, en gestión de mantenimiento en el sector de perforación petrolera y en auditorías de
+                    gestión de mantenimiento en central de ciclo combinado.<br/>
+                    Busco un rol de liderazgo para aplicar mi combinación única de conocimientos técnicos, habilidades de gestión y
+                    experiencia en investigación.
                 </p>
             </div>
         </section>

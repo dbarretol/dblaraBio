@@ -12,6 +12,7 @@
   justify-content: center; /* Centra los elementos horizontalmente */
   gap: 0.5rem; /* Ajusta el espacio entre los elementos si es necesario */
 }
+
 .badgeTypeI {
   background-color: #f8f9fa;
   border: 1px solid #0A66C2;
@@ -26,7 +27,66 @@
   display: inline-flex; /* Cambia a inline-flex para ajustar el ancho al contenido */  
 }
 
+.academic-entry-card {
+  max-width: 540px;
+  flex: 1 1 auto;
+}
 
+.image-container {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  margin-bottom: 0.5rem;
+}
+
+.card-text small {
+  margin-bottom: 0;
+}
+
+
+/* .study-card {
+  border: 1px solid #ddd; /* Color y grosor del borde */
+  /*border-radius: 8px;  /* Bordes redondeados */
+
+  /*padding: 10px;  /* Espaciado interno */
+  /*margin: 10px;  /* Separación entre elementos */
+
+  /*background-color: #E0EBF6;  /* Color de fondo */
+  /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Sombra sutil */
+/*}
+
+.study-card img{
+  width: 80px;
+  height: auto;
+}
+
+.study-card .col-md-9,
+.study-card .col-md-3,
+.study-card .col-md-2,
+.study-card .col-md-10 {
+  max-width: 100%; /* Asegura que el elemento no se expanda más allá de su contenedor */
+ /* flex: 1;
+  /*display: flex;
+ /* align-items: center; /* Centra el contenido verticalmente en cada columna */
+ /* width: auto; /* Permite que el ancho se ajuste automáticamente */
+/*}
+
+.study-card .row {
+  display: flex;
+  align-items: center; /* Centra verticalmente los elementos */
+/*} */
 
 
 

@@ -1,4 +1,4 @@
-# Hoja de vida - Dr- Ing- David Barreto Lara
+# Hoja de vida - Dr. Ing. David Barreto Lara
 
 
 <!-- # React + Vite

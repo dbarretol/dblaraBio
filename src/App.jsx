@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Abstract from './components/Abstract'
 import Interests from './components/Interests'
 import Keywords from './components/Keywords'
+import AcademicMain from './components/AcademicMain'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Keywords />
       <Abstract />
       <Interests />
+      <AcademicMain />
     </>
   )
 }
