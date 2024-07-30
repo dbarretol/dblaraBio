@@ -1,30 +1,27 @@
-import React from 'react'
+import React from 'react';
 import AcademicEntry from './AcademicEntry';
+import academicEntries from '../assets/data/academicEntries';
 
 function AcademicMain() {
     return (
         <section className="AcademicBackground">
             <div className="container">
                 <div className="row d-flex">
-                    <h2 className="sectionTitle">Formación academica</h2>
-                    <AcademicEntry
-                        logoSrc="/images/EdLogos/UNI.jpg"
-                        logoAlt="logo UNI"
-                        program="Doctorado en ciencias con mención en energética"
-                        institution="Universidad Nacional de Ingeniería"
-                        dates="2016 - 2020"
-                    />
-                    <AcademicEntry
-                        logoSrc="/images/EdLogos/ESAN.jpg"
-                        logoAlt="logo ESAN"
-                        program="Maestría en administración de negocios (MBA)"
-                        institution="ESAN Graduate School of Business"
-                        dates="Julio/2023 - Agosto/2024"
-                    />
+                    <h2 className="sectionTitle">Formación académica</h2>
+                    {academicEntries.map((entry, index) => (
+                        <AcademicEntry
+                            key={index} // Añadir una key única para cada entrada
+                            logoSrc={entry.logoSrc}
+                            logoAlt={entry.logoAlt}
+                            program={entry.program}
+                            institution={entry.institution}
+                            dates={entry.dates}
+                        />
+                    ))}
                 </div>
             </div>
         </section>
-    )
+    );
 }
 
-export default AcademicMain
+export default AcademicMain;
